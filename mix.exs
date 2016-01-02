@@ -1,4 +1,4 @@
-defmodule Seq.Mixfile do
+defmodule ExStack.Mixfile do
   use Mix.Project
 
   def project do
@@ -15,7 +15,7 @@ defmodule Seq.Mixfile do
   # Type "mix help compile.app" for more information
   def application do
     [applications: [:logger],
-     mod: {Seq, []}]
+     mod: {ExStack, []}]
   end
 
   # Dependencies can be Hex packages:

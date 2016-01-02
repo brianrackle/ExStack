@@ -1,4 +1,4 @@
-defmodule Seq.StackServer do
+defmodule ExStack.Server do
   use GenServer
 
   # public interface

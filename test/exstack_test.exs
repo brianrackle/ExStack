@@ -1,6 +1,6 @@
-defmodule SeqTest do
+defmodule ExStackTest do
   use ExUnit.Case
-  doctest Seq
+  doctest ExStack
 
   test "the truth" do
     assert 1 + 1 == 2
